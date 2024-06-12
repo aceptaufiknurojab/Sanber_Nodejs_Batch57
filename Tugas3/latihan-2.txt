@@ -1,0 +1,10 @@
+Perbedaan var, let, dan conts adalaha :
+
+* Var memiliki ruang lingkup scope, yang artinya jika variabel var di deklarasikan didalam function maka variable tersebut hanya dapat diakses dalam scope function itu saja, akan tetapi jika var di deklarasikan diluar function maka ruang scopenya akan berfungsi secara global
+* Let memilik ruang lingkup Blok Scope yang mana akan berfungsi di dalam blok dimana let itu di deklarasikan
+* Counst berfungsi sama seperti Let, akan tetapi Counst jika di gunakan untuk object dan array maka object atau aray tersebut bisa di rubah Contoh:
+
+const a = { name: "acep" };
+a.name = "taufik";
+console.log(a.name);
+Hasilnya : taufik 

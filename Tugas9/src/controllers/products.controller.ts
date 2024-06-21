@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { ProductsModel } from "@/models/products.model";
-import { CategoryModel } from "@/models/category.model";
+import ProductsModel from "@/models/products.model";
+import CategoriesModel from "@/models/category.model";
 
 export default {
   async create(req: Request, res: Response) {
